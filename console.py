@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""This module is for the entry point of the console. """
 
 import cmd
 
