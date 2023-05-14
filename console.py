@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 
 import cmd
 
@@ -10,7 +11,7 @@ class HBNBCommand(cmd.Cmd):
         """Quit command to close or exit the program """
         return True
 
-   i def do_EOF(self, arg):
+    def do_EOF(self, arg):
         """EOF command to exit the program"""
         print()
         return True
