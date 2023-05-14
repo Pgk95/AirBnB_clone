@@ -4,6 +4,7 @@
 import uuid
 from datetime import datetime
 
+
 class BaseModel:
     """
     A base class that defines common attributes and methods
@@ -36,4 +37,3 @@ class BaseModel:
         data['created_at'] = self.created_at.isoformat()
         data['updated_at'] = self.updated_at.isoformat()
         return data
-        
